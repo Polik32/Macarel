@@ -1,0 +1,38 @@
+[
+    {
+        "nav_logo": "/img/navBar-logo.png",
+        "menu_item_1": "Головна",
+        "menu_item_2": "Бісквітні торти",
+        "menu_item_3": "Макаронс",
+        "menu_item_4": "Кенді бар",
+        "menu_item_5": "Мусові торти",
+
+        "path_name_1": "/",
+        "path_name_2": "/spongecakes",
+        "path_name_3": "/macarons",
+        "path_name_4": "/candybar",
+        "path_name_5": "/moussecakes",
+
+        "slider_prod_image_1": "/img/slider-one-img-1.png",
+        "slider_prod_image_2": "/img/slider-one-img-2.png",
+        "slider_prod_image_3": "/img/slider-one-img-3.png",
+        "slider_prod_image_4": "/img/slider-one-img-4.png",
+
+        "slider_review_avatar": "/img/section-reviews-slider-img.png",
+        "slider_review_name" : "Анастасія",
+        "slider_review_info" : "Ваш тортик смачнющий Іріш, ти майстер своєї справи!!! Ми родиною не один раз замовляли в тебе смаколики і ну дуууже задоволені завжди!!! Дякуємо тобі за красу, смакоту і креативність.",
+        "slider_review_alt" : "Аватар",
+        
+        "footer_logo": "/img/footer-logo.png",
+        "footer_menu_item_1": "Головна",
+        "footer_menu_item_2": "Продукція",
+        "footer_menu_item_3": "Про нас",
+        "footer_menu_item_4": "Оплата і доставка",
+        "footer_menu_item_5": "Контакти",
+
+        "address": "Адреса:",
+        "town": "м.Біла Церква",
+        "phone": "Телефон:",
+        "phone_number": "+ (380) 96 055 16 02"
+    }
+]

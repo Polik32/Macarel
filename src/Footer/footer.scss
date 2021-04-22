@@ -1,0 +1,108 @@
+/* import */
+
+@import '../mixins/mixins.scss';
+
+/* footer */
+
+.footer {
+    background-color: #b09695;
+    padding: 50px 10px;
+    &__logo{
+        @media screen and (max-width:$mobile) {
+            display: none;
+        }
+    }
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width:$mobile) {
+            justify-content:center; 
+        }
+    }
+    &__block__item{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 172px;
+        max-height: 206px;
+        & p{
+            color: white;
+            font-size: 16px;
+            margin: 0;
+            @media screen and (max-width: $tablet) {
+                font-size: 14px;
+            }
+        }
+    }
+    &__item{
+        @include Comfortaa;
+        font-weight: normal;
+        color: #ffffff;
+        font-size: 16px;
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+            color: #3a0e0e;
+            transition: all 0.5s;
+        }
+        a{
+            @include Comfortaa;
+            color: #ffffff;
+            text-decoration: none;
+            &:hover{
+                text-decoration: none;
+                color: #3a0e0e;
+                transition: all 0.5s;
+            }
+        }
+    }
+    &__contact-name{
+        @include Montserrat;
+        font-weight: 600;
+        font-size: 24px;
+        color: #FFFFFF;
+        @media screen and (max-width:$tablet) {
+            font-size: 14px;
+        }
+        @media screen and (max-width:$mobile) {
+            font-size: 12px;
+        }
+    }
+    &__contact-info {
+        @include Montserrat;
+        font-weight: normal;
+        font-size: 16px;
+        color: #FFFFFF;
+        padding-bottom: 10px;
+    }
+}
+
+.fab {
+    font-size: 40px;
+    color: #B09695;
+    margin-right: 15px;
+    opacity: 0.6;
+    &:hover {
+        opacity: 1;
+        color:  #ffffff;
+        transition: all 0.7s;
+      }
+    @media screen and (max-width: $tablet) {
+        font-size: 35px;
+    }
+    @media screen and (max-width: $mobile) {
+        font-size: 30px;
+    }
+}
+
+.foot {
+    color: #ffffff;
+    opacity: 0.6;
+    &:hover {
+        opacity: 1;
+        transition: all 0.7s;
+    }
+}
+
+

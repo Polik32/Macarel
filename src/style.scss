@@ -1,0 +1,13 @@
+/* import */
+
+@import '../src/mixins/mixins.scss';
+
+@media screen and (max-width: $laptop) {
+    html{
+        overflow-x: hidden;
+    }
+    body {
+        /* line-height: 2; */
+        overflow-x: hidden;
+    }
+}

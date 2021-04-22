@@ -1,0 +1,26 @@
+@media screen and (max-width: 576px) {
+    .product {
+        padding: 0;
+        &__product__block {
+            flex-direction: column;
+            margin-left: 0 !important;
+            &__text p {
+                text-align: center !important;
+            }
+            &__img {
+                width: 90% !important;
+                margin: 0 auto !important;
+            }
+            &__text {
+                width: 90%;
+            }
+        }
+    }
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    background: red;
+  }

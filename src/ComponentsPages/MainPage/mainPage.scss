@@ -1,0 +1,236 @@
+/* import */
+
+@import "../../mixins/mixins.scss";
+
+.body-mainPage {
+    background: url(/img/background-main-page.png), #fffcf1;
+    padding-top: 75px;
+}
+
+/* header */
+
+.header {
+    background: url(/img/bg-mainpage-1.png) no-repeat 100%, #fffcf1;
+    background-size: cover;
+    height: 100vh;
+}
+
+@media screen and (max-width: 1199px) {
+    .logoMainpage {
+        width: 75%;
+    }
+}
+
+/* product */
+
+.section-product {
+    padding-bottom: 50px;
+}
+
+.section-name {
+    @include Comfortaa;
+    font-size: 64px;
+    text-align: center;
+    color: #3a0e0e;
+    padding: 127px 0 20px 0;
+    @media screen and (max-width: 575px) {
+        font-size: 36px;
+        padding: 80px 0 20px 0;
+    }
+}
+
+/* about us */
+
+.section-about-us {
+    &__img {
+        max-width: 1560px;
+        height: 682px;
+        background-size: 100%;
+        background: url(/img/section-about-us-img.png) no-repeat 50%;
+        border: 10px solid rgba(255, 255, 255, 0.5);
+        box-sizing: border-box;
+        box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.25);
+    }
+    &__text {
+        @include Montserrat;
+        font-weight: normal;
+        font-size: 18px;
+        margin: 40px auto 0 auto;
+        width: 900px;
+        height: 130px;
+        text-align: center;
+        color: #3a0e0e;
+    }
+}
+
+/* how-we-work */
+
+.section-how-we-work {
+    padding-top: 50px;
+    @media screen and (max-width: 576px) {
+        display: none;
+    }
+}
+
+.ordering-methods {
+    text-align: center;
+}
+
+.order-method {
+    width: 377px;
+    height: 432px;
+    background: #e7d9ce;
+    border-radius: 50px;
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    margin: 20px 100px 10px 80px;
+    &__stroke {
+        width: 341px;
+        height: 394px;
+        border: 2px solid #ffffff;
+        box-sizing: border-box;
+        border-radius: 50px;
+        margin: 18px 17px 20px 19px;
+    }
+    &__img {
+        margin: 33px 120px 0 121px;
+    }
+    &__name {
+        @include Montserrat;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: center;
+        color: #3a0e0e;
+        margin: 20px 59px 20px 65px;
+    }
+    &__description {
+        @include Montserrat;
+        font-weight: normal;
+        font-size: 18px;
+        text-align: center;
+        color: #3a0e0e;
+        margin: 0 22px 44px 0px;
+    }
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+    min-width: 100pt;
+}
+
+/* our-secret */
+
+.section-our-secret-area {
+    margin-top: 100px;
+    background: #e7d9ce;
+    padding-bottom: 100px;
+}
+
+.section-our-secret__text {
+    @include Montserrat;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #3a0e0e;
+    @media screen and (max-width: 576px) {
+        font-size: 14px;
+    }
+}
+
+.our-secret {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.secret {
+    @include Montserrat;
+    text-align: center;
+    color: #3a0e0e;
+    width: 310px;
+    display: inline-block;
+    float: none;
+    vertical-align: text-top;
+    margin: 20px 32px 10px 32px;
+    @media screen and (max-width: 576px) {
+        margin: 0;
+    }
+    &__name {
+        font-weight: 600;
+        font-size: 24px;
+    }
+    &__text {
+        @include Montserrat;
+        font-weight: 300;
+        font-size: 18px;
+        @media screen and (max-width: 576px) {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}
+
+/* contact-us */
+
+.section-contact-us {
+    max-height: 100vh;
+    padding-bottom: 120px;
+    @include Montserrat;
+    color: #3a0e0e;
+    font-weight: normal;
+    &__img {
+        display: inline-block;
+        height: auto;
+        max-width: 100%;
+        margin-bottom: 126px;
+    }
+    &__info-text {
+        font-size: 18px;
+        padding-bottom: 40px;
+    }
+    &__contact-name {
+        font-weight: 600;
+        font-size: 24px;
+    }
+    &__contact-info {
+        font-size: 20px;
+    }
+}
+
+.fabCu {
+    font-size: 40px;
+    color: #3a0e0e;
+    margin-right: 15px;
+    opacity: 1;
+    &:hover {
+        opacity: 1;
+        color: #3a0e0e;
+        transition: all 0.7s;
+    }
+}
+
+.contUs {
+    color: #3a0e0e;
+    opacity: 0.6;
+    &:hover {
+        opacity: 1;
+        color: #3a0e0e;
+        transition: all 0.7s;
+    }
+}
+
+/* reviews */
+
+.section-reviews {
+    background: url(/img/bg-reviews.png) no-repeat;
+}
+
+.reviews {
+    background: #eee7e6;
+    margin: 0 auto;
+    border: 10px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px -5px 40px rgba(0, 0, 0, 0.25);
+    height: 590px;
+}

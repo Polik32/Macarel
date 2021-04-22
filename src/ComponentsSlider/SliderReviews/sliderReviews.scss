@@ -1,0 +1,78 @@
+/* import */
+
+@import "../../mixins/mixins.scss";
+
+/* slider-reviews */
+
+.slider-two {
+    &__row {
+        width: 100%;
+        margin: 0 auto;
+        @media screen and (max-width: $UltraHD) {
+            width: 50%;
+        }
+        @media screen and (max-width: 1440px) {
+            width: 65%;
+        }
+        @media screen and (max-width: 992px) {
+            width: 70%;
+        }
+        @media screen and (max-width: $tablet) {
+            width: 80%;
+        }
+    }
+    &__item-name {
+        @include Montserrat;
+        font-size: 18px;
+        color: #3a0e0e;
+        margin-top:16px;
+        @media screen and (max-width: $UltraHD) {
+            font-size: 16px;
+        }
+        @media screen and (max-width: 1440px) {
+            font-size: 14px;
+        }
+        @media screen and (max-width: $laptop) {
+            font-size: 12px;
+        }
+        @media screen and (max-width: 992px) {
+            font-size: 11px;
+        }
+        @media screen and (max-width: $tablet) {
+            font-size: 10px;
+        }
+    }
+    &__item-text {
+        @include Montserrat;
+        font-weight: normal;
+        font-size: 18px;
+        color: #3a0e0e;
+        @media screen and (max-width: $UltraHD) {
+            font-size: 16px;
+        }
+        @media screen and (max-width: 1199px) {
+            font-size: 14px;
+        }
+        @media screen and (max-width: $laptop) {
+            font-size: 12px;
+        }
+        @media screen and (max-width: 992px) {
+            font-size: 11px;
+        }
+        @media screen and (max-width: $tablet) {
+            font-size: 10px;
+        }
+    }
+    &__item-img{
+        @media screen and (max-width: 576px) {
+           margin:0 auto;
+        }
+    }
+    &__text {
+        margin: auto;
+    }
+}
+
+.slider-two__item {
+    background: #FFFFFF;
+  }

@@ -1,0 +1,23 @@
+[
+    {
+        "symbol_small": "S",
+        "name_small": "Маленький",
+        "size_small": "- 1 кг",
+        "cost_small": "(ціна)",
+
+        "symbol_medium": "M",
+        "name_medium": "Середній",
+        "size_medium": "- 2 кг",
+        "cost_medium": "(ціна)",
+
+        "symbol_large": "L",
+        "name_large": "Великий",
+        "size_large": "- 3 кг",
+        "cost_large": "(ціна)",
+
+        "symbol_extraLarge": "XL",
+        "name_extraLarge": "Великий ХL",
+        "size_extraLarge": "- 4 кг",
+        "cost_extraLarge": "(ціна)"
+    }
+]

@@ -1,0 +1,14 @@
+/* Variables */
+$mobile: 450px;
+$tablet: 768px;
+$laptop: 1199px;
+$UltraHD: 2560px;
+
+/* Fonts */
+@mixin Montserrat (){
+    font-family: 'Montserrat', sans-serif;
+}
+
+@mixin Comfortaa (){
+    font-family: 'Comfortaa', cursive;
+}
